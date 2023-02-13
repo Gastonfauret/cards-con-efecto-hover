@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  gap: 5px;
+}
+
+.card {
+  width: 90px;
+  height: 90px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+section:hover :not(:hover) {
+  opacity: 0.4;
+}
